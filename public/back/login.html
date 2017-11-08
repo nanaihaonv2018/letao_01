@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+  <!-- 表单校验插件 -->
+  <link rel="stylesheet" href="lib/bootstrap-validator/css/bootstrapValidator.min.css">
+  <!-- 加载进度条插件 -->
+  <link rel="stylesheet" href="lib/nprogress/nprogress.css">
+
+  <!-- 公共样式 -->
+  <link rel="stylesheet" href="css/common.css">
+
+  <title>我的-乐淘后台登录界面</title>
+</head>
+<body class="login_bg">
+  <div class="container-fluid">
+    <!-- 登录框 -->
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <!-- 面板 -->
+        <div class="panel panel-danger mt_150">
+          <!-- 标题 -->
+          <div class="panel-heading text-center">
+            <h3 class="panel-title">乐淘后台登录界面</h3>
+          </div>
+          <!-- 输入框 -->
+          <div class="panel-body">
+            <form class="form-horizontal" autocomplete="off">
+              <div class="form-group">
+                <label for="inputtext3" class="col-sm-3 control-label">用户名</label>
+                <div class="col-sm-9">
+                  <input type="text" name="username" class="form-control" autocomplete="off" id="inputtext3" placeholder="请输入用户名">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-3 control-label">密码</label>
+                <div class="col-sm-9">
+                  <input type="password"  name="password"  class="form-control" autocomplete="off" id="inputPassword3" placeholder="请输入密码">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-6">
+                  <button type="reset" class="btn btn-default pull-left" id="reset">重置</button>
+                  <button type="submit" class="btn btn-primary pull-right" id="submit">登录</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<!-- 表单校验插件 -->
+<script src="lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+<!-- 加载进度条插件 -->
+<script src="lib/nprogress/nprogress.js"></script>
+
+<!-- my-js -->
+<script src="js/common.js"></script>
+<script src="js/login.js"></script>
+
